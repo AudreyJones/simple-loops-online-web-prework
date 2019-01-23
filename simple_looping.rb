@@ -35,10 +35,10 @@ def until_iterator(number_of_times)
 end
 ################################################################################
 #For Loop
-range = (1..7)
+number_of_times = (1..7)
 
-def for_iterator(range)
-  for items in range
+def for_iterator(number_of_times)
+  for items in number_of_times
     puts "Welcome to Flatiron School's Web Development Course!"
   end
 end
